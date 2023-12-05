@@ -1,0 +1,118 @@
+body {
+    padding: 1rem;
+    text-align: center;
+    background-color: #f8a834;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+    background-color: #FFED82;
+    position: relative;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0.2rem solid black;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #FFF3A1;
+    border-radius: 15%;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    min-width:100%;
+    border-top: 0.1rem solid black; 
+    bottom: 0;
+    left: -0.5%; 
+    background-color: #602400; 
+}
+
+.border{
+    border: 0.1rem solid black;
+    padding: 0.2rem;
+    margin: 0.5rem;
+    border-radius: 5%;
+}
+
+.section_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    max-width: 85%;
+    transform: translateX(9%);
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid black;
+    margin: 0.5rem;
+}
+
+h2{
+    border: 0.1rem solid black;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.img_raposa{
+    max-width:65% ;
+    max-height: 90%;
+}
+
+.img_casa{
+    max-width:60% ;
+    max-height: 80%;
+}
+
+.img_progresso{
+    max-width:70% ;
+    max-height: 80%;
+}
+
+.img_prato{
+    max-width:20% ;
+    max-height: 20%;
+}
+
+.bk{
+    background-color: white;
+}
+
+.bk2{
+    background-color:#FFF3A1;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 1.3rem;
+}
+
+.botao_seta{
+    max-width: 18%;
+    max-height: 18%;
+    position: absolute;
+    top: -1.8%;
+    left: -1.8%;
+}
